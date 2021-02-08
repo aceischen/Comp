@@ -1,0 +1,251 @@
+/*
+    style.css 
+*/
+
+/* ========================================================= */
+/*  IMPORTS for fonts 
+
+    Resource:  fonts.google.com
+*/
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Raleway');
+
+
+/* ========================================================= */
+/*  Body Style Rules */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+	background-color: #E5E5E5;
+}
+
+p {
+    text-align: justify;
+}
+/* ========================================================= */
+/* Text Style Rules */
+
+h1 {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+/* section rules */
+section {
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    padding: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    max-width: 1000px;
+}
+/* ========================================================= */
+/*  Container and Spacer Rules */
+
+.text-spacing {
+    padding: 0.25em;
+}
+
+.padding {
+	padding: 100px;
+}
+
+
+/* ========================================================= */
+/* Color Style Rules
+
+    Reference:  coolors.co
+*/
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.bg-light-grey {
+    background-color: #EDEDED;
+}
+
+.bg-blue {
+    background-color: #305759;
+}
+
+.bg-grey {
+    background-color: #919191;
+}
+
+/* ========================================================= */
+/* text style rules */
+
+.text-black {
+    color: #000000;
+}
+/* ========================================================= */
+/* Button Styles */
+
+.btn-sharp {
+    font-size: 24px;
+    font-family: 'PT Serif', serif;
+    border-color: #000000;
+    border-width: 2px;
+    border-radius: 0px;
+    border-color: #000000;
+    background-color: #EDEDED;
+    padding: px;
+}
+
+.btn-sharp:hover {
+    background-color: #000000;
+    color: #EDEDED;
+}
+
+/* ========================================================= */
+/* Links Style */
+
+/* ========================================================= */
+/* Card Styles */
+
+.card-group-fancy .card .hover-info {
+    
+}
+
+.card-group-fancy .card .hover-info h3{
+    background-color: #FFFFFF;
+    color: black;
+    font-family: 'PT Serif', serif;
+}
+
+.card-group-fancy .card .hover-info p{
+    color: #919191;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+}
+
+/* ========================================================= */
+/* Tab Styles */
+
+
+
+/* ========================================================= */
+/* Accordion Styles */
+
+
+
+/* ========================================================= */
+/* Modal Style */
+
+.modal-content {
+	border-color: black;
+	border-width: 2px;
+	border-radius: 0px;
+}
+.modal-title {
+    font-family: 'PT Serif', serif;
+    font-size: 36px;
+    text-align: center;
+}
+/* ========================================================= */
+/* Image Styles */
+
+
+
+/* ========================================================= */
+/* Navbar */
+.navbar{
+	background-color: #FFFFFF;
+	padding: 0px;
+	border-bottom: 2px solid;
+}
+.nav-item a{
+	color: #000000;
+	font-size: 18px;
+	font-family: 'PT Serif', serif;
+	background-color: #FFFFFF;
+}
+
+.nav-item a:hover{
+	color:#919191;
+	background-color: #EDEDED;
+	border-color: #919191;
+}
+
+.nav-item a:active{
+    color:#919191;
+	background-color: #EDEDED;
+	border-color: #919191;
+}
+
+.navbar-light .navbar-brand{
+    color: #FFFFFF;
+	font-size: 24px;
+	font-family: 'PT Serif', serif;
+	padding: 12px;
+	background-color: #305759;
+}
+
+.navbar-light .navbar-brand:hover{
+	font-family: 'PT Serif', serif;
+	background-color: #EBEBEB;
+    color: #FFFFFF;
+}
+
+
+
+
+/*navbar-secondary*/
+
+.navbar-secondary{
+	background-color: #FFFFFF;
+	border-bottom: 0px;
+}
+
+
+
+.navbar-collapse {
+	padding: 0px;
+    padding-top: 20px;
+}
+
+.navbar-secondary .nav-item a{
+	color: #000000;
+	border-bottom: 2px solid #000000;
+	padding: 10px;
+	font-size: 18px;
+	font-family: 'PT Serif', serif;
+	background-color: #EBEBEB;
+    border: 1px solid;
+}
+
+.navbar-secondary .nav-item a:hover{
+	color:#FFFFFF;
+	background-color: #000000;
+	border-color: #919191;
+}
+
+.navbar-secondary .nav-item a:active{
+    color:#919191;
+	background-color: #EDEDED;
+	border-color: #919191;
+}
